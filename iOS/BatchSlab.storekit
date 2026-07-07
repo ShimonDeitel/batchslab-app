@@ -1,0 +1,28 @@
+{
+  "identifier" : "BatchSlab",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "epoxytablelog_pro",
+      "localizations" : [
+        {
+          "description" : "Resin volume calculator based on slab dimensions and gap depth",
+          "displayName" : "Batch Slab - Epoxy Table Log Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "epoxytablelog_pro",
+      "referenceName" : "Batch Slab - Epoxy Table Log Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
