@@ -34,7 +34,7 @@ final class Store: ObservableObject {
         isPro || entries.count < Store.freeLimit
     }
 
-    func add(wood: String, dimensions: String, resin: String, stage: String) {
+    func add(name: String, wood: String, dimensions: String, resin: String, stage: String) {
         guard canAddMore else { return }
         let entry = SlabEntry(name: name, wood: wood, dimensions: dimensions, resin: resin, stage: stage)
         entries.insert(entry, at: 0)
